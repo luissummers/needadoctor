@@ -50,13 +50,22 @@
 
                         <div class="form-group">
                             <div class="col-md-8 col-md-offset-4">
+                                <center>
                                 <button type="submit" class="btn btn-primary">
                                     Entrar
                                 </button>
+                            </center>
+                            <br>
+                            <br>
 
+                                <div class="row">
                                 <a class="btn btn-link" href="{{ url('/password/reset') }}">
                                     Esqueceu a senha?
                                 </a>
+                                <a style="padding-left: 90px" class="btn btn-link" href="{{ url('/register') }}">
+                                    Cadastre-se
+                                </a>
+                            </div>
                             </div>
                         </div>
                     </form>

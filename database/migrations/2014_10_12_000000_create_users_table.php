@@ -21,7 +21,7 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->enum('planosaude',[
-                        'Rio Pax',
+                        'Unimed',
                         'Amil',
             ]);
             $table->rememberToken();

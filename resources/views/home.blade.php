@@ -6,12 +6,12 @@
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
                 <div class="panel-heading">Seja Bem-vindo</div>
-                    <form action=" " method="post">
+                <!--     <form action=" " method="post">
                       <label for="busca">Buscar Clínica, Laboratório ou Hospital</label>
                       <input type="search" id="busca" name="q">
                       <button type="submit">Pesquisar</button>
                     </form>
-                    <head>
+                    <head> -->
     <meta charset="UTF-8" />
     <title>Find a route using Geolocation and Google Maps API</title>
     <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
@@ -95,11 +95,11 @@
   <body>
  
     <form id="calculate-route" name="calculate-route" action="#" method="get">
-      <label for="from">From:</label>
+      <label for="from">Localização Atual:</label>
       <input type="text" id="from" name="from" required="required" placeholder="An address" size="30" />
       <br />
 
-      <label for="to">To:</label>
+      <label for="to">Destino:</label>
       <input type="text" id="to" name="to" required="required" placeholder="Another address" size="30" />
       <br />
 
